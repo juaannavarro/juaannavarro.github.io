@@ -33,7 +33,7 @@ header{
      /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.696)), url(../imagenes/tpop5.jpeg);
      /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.696)), url(../imagenes/tpop5.jpeg);
+    background: linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.696)), url(../imagenes/top3.jpeg);
      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -55,4 +55,75 @@ nav > a{
 }
 nav > a:hover{
     text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 420px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+
+/*About us*/
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 48%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: #642a73;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,0, 0, .5);
+    margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+/*Galeria*/
+
+.portafolio{
+ background:#f2f2f2 ;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+}
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
