@@ -118,9 +118,8 @@ header .textos-header{
     flex-wrap: wrap;
 }
 .imagen-port{
-    width: 31%;
+    width: 15%;
     margin-bottom: 10px;
-    height: 150px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
