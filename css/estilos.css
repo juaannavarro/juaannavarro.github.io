@@ -34,18 +34,20 @@ header{
     height: 720px;
     background: #8E0E00; 
      /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.224)), url(../imagenes/asientos.jpeg);
+    background: -webkit-linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.224)), url(../imagenes/dd.jpeg);
      /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.225)), url(../imagenes/asientos.jpeg);
+    background: linear-gradient(to right, hsla(38, 14%, 11%, 0.803), hsla(6, 100%, 28%, 0.225)), url(../imagenes/dd.jpeg);
      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    font-family: 'Dancing Script', cursive;
 }
 
 nav{
-    text-align: center;
     padding: 30px 50px 0 0;
+    font-family: 'open sans';
+    margin-left: 10px;
 
 }
 
@@ -70,6 +72,8 @@ header .textos-header{
 .textos-header h1{
     font-size: 50px;
     color : #FF0000;
+    font-weight: 300;
+
 }
 .textos-header h2{
     font-size: 30px;
