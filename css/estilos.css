@@ -33,8 +33,10 @@ header{
     width: 100%;
     height: 720px;
     background-image: url(../imagenes/dd.jpeg);
-    font-family: 'Dancing Script', cursive;
+    background-size: 75%;
+    background-position: center;
     background-attachment: fixed;
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -64,18 +66,17 @@ header .textos-header{
     text-align: center;
 }
 .textos-header h1{
-    font-size: 50px;
-    color : #FF0000;
+    font-size:50px;
+    color : #ac2b2b;
     font-weight: 300;
-    margin-bottom: 150px;
+    margin-bottom: 320px;
 
 }
 .textos-header h2{
     font-size: 30px;
-    color: #FF0000;
-    font-weight: 600;
-    margin: 20px 0;
-    font-family: 'luxury';
+    color: #9a1313;
+    font-weight: 33300;
+    margin:20px 0 0 0;
 
 }
 
