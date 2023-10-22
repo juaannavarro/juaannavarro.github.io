@@ -25,6 +25,14 @@ header{
     background: #000;
     background-attachment: fixed;
     position: relative;
+    
+}
+header .minititulo{
+    color: #FF0000;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 30px;
 
 }
 header .contacto{
@@ -40,9 +48,7 @@ header .contacto{
     color: #FF0000;
     font-size: 55px;
     font-weight: 300;
-    margin-bottom: 30px;
-    margin-left: 90px;
-
+    margin-bottom: 130px;
 }
 .contacto h3{
     color: #FF0000;
@@ -92,6 +98,29 @@ header .textos-header{
     margin-bottom: 30px;
     margin-left: 90px;
     margin-right: 90px;
+}
+
+.circulos{
+    background: #000;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    color: #ac2b2bed;
+
+}
+
+.circulos figure{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.circulos figure img{
+    width: 200px;
+    justify-content: space-between;
+    margin-left: 0px;
 }
 /*footer*/
 footer{
